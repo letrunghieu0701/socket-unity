@@ -24,7 +24,7 @@ public class Client : MonoBehaviour
 
         // Default host, port values
         string host = "127.0.0.1";
-        int port = 65000;
+        int port = Server.port;
 
         // Overwrite default value, if there is something in the boxes
         // string inputedHost;
